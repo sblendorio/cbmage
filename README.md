@@ -54,6 +54,6 @@ In particular, the 4th line produces the raw byes (launch it without "./" if you
 
 ## Sample printed **PNG** files
 ![MPS 803 - 1](http://www.sblendorio.eu/images/mps803-1.jpg)
-![MPS 803 - 2](http://www.sblendorio.eu/images/mps803-2.jpg)
-![MPS 803 - 3](http://www.sblendorio.eu/images/mps803-3.jpg)
+![MPS 803 - 2](http://www.sblendorio.eu/images/mps803-3.jpg)
+![MPS 803 - 3](http://www.sblendorio.eu/images/mps803-2.jpg)
 
