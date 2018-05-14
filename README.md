@@ -61,7 +61,7 @@ In particular, the **4th line** (`./cbmage picture.png | cbmctrl write`) produce
 **Maximum width** of the picture is **480 pixel**, the printer is a **black and white** one. The _recommended_ format is **PNG**: every single dot which is **white** (total white: `#ffffff` in hex) will be left blank, **every** other pixel color will result in a **black** dot on the printer.
 
 ## Credits
-Thanks to [Spiro Trikaliotis](http://spiro.trikaliotis.net/) for the [opencbm package](http://spiro.trikaliotis.net/opencbm), to [Till Harbaum](http://spiro.trikaliotis.net/xu1541) for the initial case study of the [XU1541](http://spiro.trikaliotis.net/xu1541) (and also for the fantastic [MIST](http://harbaum.org/till/mist/index.shtml)) and to [Sean Barrett](https://twitter.com/nothings) for it's powerful and effective [STB Image Library](https://github.com/sblendorio/cbmage/blob/master/source/stb_image.h).
+Thanks to [Spiro Trikaliotis](http://spiro.trikaliotis.net/) for the [opencbm package](http://spiro.trikaliotis.net/opencbm), to [Till Harbaum](http://spiro.trikaliotis.net/xu1541) for the initial case study of the [XU1541](http://spiro.trikaliotis.net/xu1541) (and also for the fantastic [MIST](http://harbaum.org/till/mist/index.shtml)) and to [Sean Barrett](https://twitter.com/nothings) for it's powerful and effective [STB Image Library](https://github.com/nothings/stb).
 
 ## Sample printed **PNG** files
 ![MPS 803 - 1](http://www.sblendorio.eu/images/mps803-1.jpg)
