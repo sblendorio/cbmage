@@ -12,6 +12,7 @@ This utility outputs raw bytes for printing on a [Commodore MPS 803](http://www.
   - **win32**/[**cbmage.exe**](https://github.com/sblendorio/cbmage/blob/master/binary/win32/cbmage.exe?raw=true) Precompiled binary executable file for **Windows XP**
   - **win64**/[**cbmage.exe**](https://github.com/sblendorio/cbmage/blob/master/binary/win64/cbmage.exe?raw=true) Precompiled binary executable file for **Windows 10**
   - **macOS**/[**cbmage**](https://github.com/sblendorio/cbmage/blob/master/binary/macOS/cbmage?raw=true) Precompiled binary executable file for **macOS**, 64 bit
+  - **linux64**/[**cbmage**](https://github.com/sblendorio/cbmage/blob/master/binary/linux64/cbmage?raw=true) Precompiled binary executable file for **Linux** (x86_64)
 
 ## Requirements
 - **macOS** or **Windows** (32/64 bit) or **Linux**
