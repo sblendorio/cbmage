@@ -16,7 +16,7 @@ This utility outputs raw bytes for printing on a [Commodore MPS 803](http://www.
 
 ## Requirements
 - **macOS** or **Windows** (32/64 bit) or **Linux**
-- [XUM1541](https://rdist.root.org/2009/01/21/introducing-xum1541-the-fast-c64-floppy-usb-adapter/) / [ZoomFloppy](https://rdist.root.org/2009/01/21/introducing-xum1541-the-fast-c64-floppy-usb-adapter/)
+- [XUM1541](https://rdist.root.org/2009/01/21/introducing-xum1541-the-fast-c64-floppy-usb-adapter/) / [ZoomFloppy](http://www.go4retro.com/products/zoomfloppy/)
 - [**opencbm**](http://spiro.trikaliotis.net/opencbm) package installed
 - **gcc** if you want to compile from sources
 
