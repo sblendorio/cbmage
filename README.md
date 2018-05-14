@@ -6,7 +6,7 @@ This utility outputs raw bytes for printing on a [Commodore MPS 803](http://www.
 ## Contents of package
 - **source** - Source code in Turbo Modula-2 (despite the name ".BAS")
   - [**cbmage.c**](https://github.com/sblendorio/cbmage/blob/master/source/cbmage.c) - Main program
-  - [**stb_image.h**](https://github.com/sblendorio/cbmage/blob/master/source/xterm.mod) - [STB library](https://github.com/nothings/stb) by [Sean Barrett](https://twitter.com/nothings) for reading image files
+  - [**stb_image.h**](https://github.com/sblendorio/cbmage/blob/master/source/stb_image.h) - [STB library](https://github.com/nothings/stb) by [Sean Barrett](https://twitter.com/nothings) for reading image files
   - [**Makefile**](https://github.com/sblendorio/cbmage/blob/master/source/Makefile) - Makefile
 - **binary** - Compiled .COM executable files for CP/M-80
   - **win32**/[**cbmage.exe**](https://github.com/sblendorio/cbmage/blob/master/binary/win32/cbmage.exe?raw=true) Precompiled binary executable file for **Windows XP**
