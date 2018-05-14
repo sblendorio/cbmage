@@ -1,5 +1,5 @@
 # cbmage 0.1
-Print a picture from a modern PC with an old-fashioned Commodore MPS 803 compatible printer
+Print a picture from a modern PC with an old-fashioned **Commodore MPS 803** compatible printer
 ## Purpose
 This utility outputs raw bytes for printing on a [Commodore MPS 803](http://www.zimmers.net/cbmpics/p6serial3.html) compatible printer. It should be used with [opencbm](http://spiro.trikaliotis.net/opencbm) package by [Spiro Trikaliotis](http://spiro.trikaliotis.net/) to redirect the output to the printer, connected through a [XUM1541 cable](https://rdist.root.org/2009/01/21/introducing-xum1541-the-fast-c64-floppy-usb-adapter/), such as [ZoomFloppy](http://www.go4retro.com/products/zoomfloppy/).
 
