@@ -16,11 +16,12 @@ This utility outputs raw bytes for printing on a [Commodore MPS 803](http://www.
 
 ## Requirements
 - **macOS** or **Windows** (32/64 bit) or **Linux**
-- [XUM1541](https://rdist.root.org/2009/01/21/introducing-xum1541-the-fast-c64-floppy-usb-adapter/) / [ZoomFloppy](http://www.go4retro.com/products/zoomfloppy/)
+- an **MPS 803** printer or a **compatible one**
+- [**XUM1541**](https://rdist.root.org/2009/01/21/introducing-xum1541-the-fast-c64-floppy-usb-adapter/) / [**ZoomFloppy**](http://www.go4retro.com/products/zoomfloppy/)
 - [**opencbm**](http://spiro.trikaliotis.net/opencbm) package installed
 - **gcc** if you want to compile from sources
 
-## Install **opencbm**
+## Install ***opencbm***
 To install [**opencbm**](http://spiro.trikaliotis.net/opencbm) you can use the installer from its website, or if you use a debian-based version of Linux, you can install it with:
 
 `sudo apt-get install opencbm`
@@ -29,14 +30,14 @@ on macOS you can use a similar command:
 
 `brew install opencbm`
 
-## Compiling **cbmage**
+## Compiling ***cbmage***
 Once you have **gcc** installed, just enter the **"source"** directory and launch:
 
 `make`
 
 An executable file named **"cbmage"** will be generated: it's ready to use.
 
-## Using **cbmage**
+## Using ***cbmage***
 
 Synopsis:
 
@@ -44,7 +45,7 @@ Synopsis:
 
 This is the basic syntax: it will simply write on *stdout* (so, the termainal window) the raw bytes that should be interpreted by the **MPS 803** printer. Quite useless.
 
-## Let's use it with **opencbm**
+## Let's use it with ***opencbm***
 
 The typical sequence of command you should use to do the task is:
 
@@ -61,7 +62,7 @@ In particular, the **4th line** (`./cbmage picture.png | cbmctrl write`) produce
 **Maximum width** of the picture is **480 pixel**, the printer is a **black and white** one. The _recommended_ format is **PNG**: every single dot which is **white** (total white: `#ffffff` in hex) will be left blank, **every** other pixel color will result in a **black** dot on the printer.
 
 ## Credits
-Thanks to [Spiro Trikaliotis](http://spiro.trikaliotis.net/) for the [opencbm package](http://spiro.trikaliotis.net/opencbm), to [Till Harbaum](http://spiro.trikaliotis.net/xu1541) for the initial case study of the [XU1541](http://spiro.trikaliotis.net/xu1541) (and also for the fantastic [MIST](http://harbaum.org/till/mist/index.shtml)) and to [Sean Barrett](https://twitter.com/nothings) for it's powerful and effective [STB Image Library](https://github.com/nothings/stb).
+Thanks to [**Spiro Trikaliotis**](http://spiro.trikaliotis.net/) for the [opencbm package](http://spiro.trikaliotis.net/opencbm), to [**Till Harbaum**](http://spiro.trikaliotis.net/xu1541) for the initial case study of the [XU1541](http://spiro.trikaliotis.net/xu1541) (and also for the fantastic [MIST](http://harbaum.org/till/mist/index.shtml)) and to [**Sean Barrett**](https://twitter.com/nothings) for it's powerful and effective [STB Image Library](https://github.com/nothings/stb).
 
 ## Sample printed **PNG** files
 ![MPS 803 - 1](http://www.sblendorio.eu/images/mps803-1.jpg)
