@@ -22,19 +22,26 @@ This utility outputs raw bytes for printing on a [Commodore MPS 803](http://www.
 
 ## Install **opencbm**
 To install [**opencbm**](http://spiro.trikaliotis.net/opencbm) you can use the installer from its website, or if you use a debian-based version of Linux, you can install it with:
+
 `sudo apt-get install opencbm`
+
 on macOS you can use a similar command:
+
 `brew install opencbm`
 
 ## Compiling **cbmage**
 Once you have **gcc** installed, just enter the **"source"** directory and launch:
+
 `make`
+
 An executable file named **"cbmage"** will be generated: it's ready to use.
 
 ## Using **cbmage**
 
 Synopsis:
+
 `cbmage <image file name>`
+
 This is the basic syntax: it will simply write on *stdout* (so, the termainal window) the raw bytes that should be interpreted by the **MPS 803** printer. Quite useless.
 
 ## Let's use it with **opencbm**
