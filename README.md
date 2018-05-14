@@ -51,7 +51,7 @@ The typical sequence of command you should use to do the task is:
     cbmctrl reset
     cbmctrl lock
     cbmctrl listen 4 0
-    ./cbmage picture.png | cbmwrite
+    ./cbmage picture.png | cbmctrl write
     cbmctrl unlisten
     cbmctrl unlock
 
