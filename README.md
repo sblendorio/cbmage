@@ -4,11 +4,11 @@ Print a picture from a modern PC with an old-fashioned **Commodore MPS 803** com
 This utility outputs raw bytes for printing on a [Commodore MPS 803](http://www.zimmers.net/cbmpics/p6serial3.html) compatible printer. It should be used with [opencbm](http://spiro.trikaliotis.net/opencbm) package by [Spiro Trikaliotis](http://spiro.trikaliotis.net/) to redirect the output to the printer, connected through a [XUM1541 cable](https://rdist.root.org/2009/01/21/introducing-xum1541-the-fast-c64-floppy-usb-adapter/), such as [ZoomFloppy](http://www.go4retro.com/products/zoomfloppy/).
 
 ## Contents of package
-- **source** - Source code in Turbo Modula-2 (despite the name ".BAS")
+- **source** - Source code in C
   - [**cbmage.c**](https://github.com/sblendorio/cbmage/blob/master/source/cbmage.c) - Main program
   - [**stb_image.h**](https://github.com/sblendorio/cbmage/blob/master/source/stb_image.h) - [STB library](https://github.com/nothings/stb) by [Sean Barrett](https://twitter.com/nothings) for reading image files
   - [**Makefile**](https://github.com/sblendorio/cbmage/blob/master/source/Makefile) - Makefile
-- **binaries** - Compiled .COM executable files for CP/M-80
+- **binaries** - Executable files for different platforms
   - **win32**/[**cbmage.exe**](https://github.com/sblendorio/cbmage/blob/master/binaries/win32/cbmage.exe?raw=true) Precompiled binary executable file for **Windows XP**
   - **win64**/[**cbmage.exe**](https://github.com/sblendorio/cbmage/blob/master/binaries/win64/cbmage.exe?raw=true) Precompiled binary executable file for **Windows 10**
   - **macOS**/[**cbmage**](https://github.com/sblendorio/cbmage/blob/master/binaries/macOS/cbmage?raw=true) Precompiled binary executable file for **macOS**, 64 bit
