@@ -8,11 +8,11 @@ This utility outputs raw bytes for printing on a [Commodore MPS 803](http://www.
   - [**cbmage.c**](https://github.com/sblendorio/cbmage/blob/master/source/cbmage.c) - Main program
   - [**stb_image.h**](https://github.com/sblendorio/cbmage/blob/master/source/stb_image.h) - [STB library](https://github.com/nothings/stb) by [Sean Barrett](https://twitter.com/nothings) for reading image files
   - [**Makefile**](https://github.com/sblendorio/cbmage/blob/master/source/Makefile) - Makefile
-- **binary** - Compiled .COM executable files for CP/M-80
-  - **win32**/[**cbmage.exe**](https://github.com/sblendorio/cbmage/blob/master/binary/win32/cbmage.exe?raw=true) Precompiled binary executable file for **Windows XP**
-  - **win64**/[**cbmage.exe**](https://github.com/sblendorio/cbmage/blob/master/binary/win64/cbmage.exe?raw=true) Precompiled binary executable file for **Windows 10**
-  - **macOS**/[**cbmage**](https://github.com/sblendorio/cbmage/blob/master/binary/macOS/cbmage?raw=true) Precompiled binary executable file for **macOS**, 64 bit
-  - **linux64**/[**cbmage**](https://github.com/sblendorio/cbmage/blob/master/binary/linux64/cbmage?raw=true) Precompiled binary executable file for **Linux** (x86_64)
+- **binaries** - Compiled .COM executable files for CP/M-80
+  - **win32**/[**cbmage.exe**](https://github.com/sblendorio/cbmage/blob/master/binaries/win32/cbmage.exe?raw=true) Precompiled binary executable file for **Windows XP**
+  - **win64**/[**cbmage.exe**](https://github.com/sblendorio/cbmage/blob/master/binaries/win64/cbmage.exe?raw=true) Precompiled binary executable file for **Windows 10**
+  - **macOS**/[**cbmage**](https://github.com/sblendorio/cbmage/blob/master/binaries/macOS/cbmage?raw=true) Precompiled binary executable file for **macOS**, 64 bit
+  - **linux64**/[**cbmage**](https://github.com/sblendorio/cbmage/blob/master/binaries/linux64/cbmage?raw=true) Precompiled binary executable file for **Linux** (x86_64)
 
 ## Requirements
 - **macOS** or **Windows** (32/64 bit) or **Linux**
