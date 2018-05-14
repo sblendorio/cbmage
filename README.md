@@ -59,7 +59,7 @@ The typical sequence of command you should use to do the task is:
 In particular, the **4th line** (`./cbmage picture.png | cbmctrl write`) produces the raw byes (launch it **without "./"** if you run **on Windows**), which are redirected to the printer through the piped **cbmwrite** command
 
 ## Restrictions
-**Maximum width** of the picture is **480 pixel**, the printer is a **black and white** one. The _recommended_ format is **PNG**: every single dot which is **white** (total white: `#ffffff` in hex) will be left blank, **every** other pixel color will result in a **black** dot on the printer.
+**Maximum width** of the picture is **480 pixel**, the printer is a **black and white** one. The _recommended_ format is **PNG**: every single dot which is **white** (total white: `#ffffff` in hex) will be left blank, while **any** other pixel color will result in a **black** dot on the printer.
 
 ## Credits
 Thanks to [**Spiro Trikaliotis**](http://spiro.trikaliotis.net/) for the [opencbm package](http://spiro.trikaliotis.net/opencbm), to [**Till Harbaum**](http://spiro.trikaliotis.net/xu1541) for the initial case study of the [XU1541](http://spiro.trikaliotis.net/xu1541) (and also for the fantastic [MIST](http://harbaum.org/till/mist/index.shtml)) and to [**Sean Barrett**](https://twitter.com/nothings) for it's powerful and effective [STB Image Library](https://github.com/nothings/stb).
