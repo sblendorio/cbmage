@@ -26,7 +26,7 @@ To install [**opencbm**](http://spiro.trikaliotis.net/opencbm) you can use the i
 
 `sudo apt-get install opencbm`
 
-on macOS you can use a similar command:
+on macOS you can use a similar command (with the help of [Homebrew Package Manager](https://brew.sh/)):
 
 `brew install opencbm`
 
