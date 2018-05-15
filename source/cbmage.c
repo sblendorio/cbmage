@@ -8,9 +8,11 @@ void usage(int argc, char *argv[]);
 void die(char *message);
 
 int main(int argc, char *argv[]) {
-	usage(argc, argv);
 	int width, height, bpp;
-	unsigned char *data = stbi_load( argv[1], &width, &height, &bpp, 3);
+	unsigned char *data;
+
+	usage(argc, argv);
+	data = stbi_load(argv[1], &width, &height, &bpp, 3);
 	if (data == NULL) die("I/O error: file not found");
 
 	print(data, width, height);
