@@ -9,10 +9,10 @@ This utility outputs raw bytes for printing on a [Commodore MPS 803](http://www.
   - [**stb_image.h**](https://github.com/sblendorio/cbmage/blob/master/source/stb_image.h) - [STB library](https://github.com/nothings/stb) by [Sean Barrett](https://twitter.com/nothings) for reading image files
   - [**Makefile**](https://github.com/sblendorio/cbmage/blob/master/source/Makefile) - Makefile
 - **binaries** - Precompiled executable files for different platforms
-  - **win32**/[**cbmage.exe**](https://github.com/sblendorio/cbmage/blob/master/binaries/win32/cbmage.exe?raw=true) binary for **Windows XP**
-  - **win64**/[**cbmage.exe**](https://github.com/sblendorio/cbmage/blob/master/binaries/win64/cbmage.exe?raw=true) binary for **Windows 10**
-  - **macOS**/[**cbmage**](https://github.com/sblendorio/cbmage/blob/master/binaries/macOS/cbmage?raw=true) binary for **macOS**, 64 bit
-  - **linux64**/[**cbmage**](https://github.com/sblendorio/cbmage/blob/master/binaries/linux64/cbmage?raw=true) binary for **Linux** (x86_64)
+  - **win32**/[**cbmage.exe**](https://github.com/sblendorio/cbmage/blob/master/binaries/win32/cbmage.exe?raw=true) - for **Windows XP**
+  - **win64**/[**cbmage.exe**](https://github.com/sblendorio/cbmage/blob/master/binaries/win64/cbmage.exe?raw=true) - for **Windows 10**
+  - **macOS**/[**cbmage**](https://github.com/sblendorio/cbmage/blob/master/binaries/macOS/cbmage?raw=true) - for **macOS**, 64 bit
+  - **linux64**/[**cbmage**](https://github.com/sblendorio/cbmage/blob/master/binaries/linux64/cbmage?raw=true) binary - **Linux** (x86_64)
 
 ## Requirements
 - **macOS** or **Windows** (32/64 bit) or **Linux**
