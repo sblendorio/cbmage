@@ -56,7 +56,7 @@ The typical sequence of command you should use to do the task is:
     cbmctrl unlisten
     cbmctrl unlock
 
-In particular, the **4th line** (`./cbmage picture.png | cbmctrl write`) produces the raw bytes (launch it **without "./"** if you run **on Windows**), which are redirected to the printer through the piped `cbmctrl write` command.
+In particular, the **4th line** (`./cbmage picture.png | cbmctrl write`) produces the raw bytes (launch it **without "./"** if you run it **on Windows**), which are redirected to the printer through the piped `cbmctrl write` command.
 
 ## Restrictions
 **Maximum width** of the picture is **480 pixel**, the printer is a **black and white** one. The _recommended_ format is **PNG**: every single dot which is **white** (total white: `#ffffff` in hex) will be left blank, while **any** other pixel color will result in a **black** dot on the printer.
