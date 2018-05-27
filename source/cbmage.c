@@ -77,7 +77,7 @@ void usage(int argc, char *argv[]) {
 	fprintf(stderr, "\n");
 	fprintf(stderr, "Example:\n\n");
 	fprintf(stderr, "cbmctrl reset\ncbmctrl lock\ncbmctrl listen 4 0\n");
-	fprintf(stderr, "%s picture.png | cbmwrite\n", argc == 0 ? "cbmage" : argv[0]);
+	fprintf(stderr, "%s picture.png | cbmctrl write\n", argc == 0 ? "cbmage" : argv[0]);
 	fprintf(stderr, "cbmctrl unlisten\ncbmctrl unlock\n");
 	fprintf(stderr, "\n");
 	exit(1);
