@@ -22,14 +22,15 @@ int main(int argc, char *argv[]) {
 
 void print(unsigned char *data, int width, int height) {
 	static int pow[] = {1, 2, 4, 8, 16, 32, 64};
-	int rows = height / 7 + (height % 7 == 0 ? 0 : 1);
-	int row, x, dy;
+	int row, x, dy, rows, code, pixel;
+	
+	rows = height / 7 + (height % 7 == 0 ? 0 : 1);
 	printf("%c", 8);
 	for (row=0; row<rows; ++row) {
 		for (x=0; x<width; ++x) {
-			int code = 128;
+			code = 128;
 			for (dy=0; dy<7; ++dy) {
-				int pixel = getPixel(data, 3, width, height, x, (row*7) + dy);
+				pixel = getPixel(data, 3, width, height, x, (row*7) + dy);
 				code += pow[dy]*pixel;
 			}
 			printf("%c", code);
