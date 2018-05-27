@@ -68,6 +68,7 @@ Thanks to [**Spiro Trikaliotis**](http://spiro.trikaliotis.net/) for the [opencb
 
 ## Sample printed **PNG** files
 ![MPS 803 - 1](http://www.sblendorio.eu/images/mps803-1.jpg)
-![MPS 803 - 2](http://www.sblendorio.eu/images/mps803-3.jpg)
-![MPS 803 - 3](http://www.sblendorio.eu/images/mps803-2.jpg)
+![MPS 803 - 2](http://www.sblendorio.eu/images/mps803-99.jpg)
+![MPS 803 - 3](http://www.sblendorio.eu/images/mps803-3.jpg)
+![MPS 803 - 4](http://www.sblendorio.eu/images/mps803-2.jpg)
 
