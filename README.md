@@ -1,4 +1,4 @@
-# cbmage 0.1
+# cbmage 0.2
 Print a picture from a modern PC with an old-fashioned **Commodore MPS 803** compatible printer
 ## Purpose
 This utility outputs raw bytes for printing on a [Commodore MPS 803](http://www.zimmers.net/cbmpics/p6serial3.html) compatible printer. It should be used with [**opencbm**](http://spiro.trikaliotis.net/opencbm) package by [Spiro Trikaliotis](http://spiro.trikaliotis.net/) to redirect the output to the printer, connected through a [XUM1541 cable](https://rdist.root.org/2009/01/21/introducing-xum1541-the-fast-c64-floppy-usb-adapter/), such as [ZoomFloppy](http://www.go4retro.com/products/zoomfloppy/).
@@ -7,6 +7,7 @@ This utility outputs raw bytes for printing on a [Commodore MPS 803](http://www.
 - **source** - Source code in C
   - [**cbmage.c**](https://github.com/sblendorio/cbmage/blob/master/source/cbmage.c) - Main program
   - [**stb_image.h**](https://github.com/sblendorio/cbmage/blob/master/source/stb_image.h) - [STB library](https://github.com/nothings/stb) by [Sean Barrett](https://twitter.com/nothings) for reading image files
+  - [**stb_image_resize.h**](https://github.com/sblendorio/cbmage/blob/master/source/stb_image_resize.h) - [STB library](https://github.com/nothings/stb) by [Sean Barrett](https://twitter.com/nothings) for resizing images
   - [**Makefile**](https://github.com/sblendorio/cbmage/blob/master/source/Makefile) - Makefile
 - **binaries** - Precompiled executable files for different platforms
   - **win32**/[**cbmage.exe**](https://github.com/sblendorio/cbmage/blob/master/binaries/win32/cbmage.exe?raw=true) - for **Windows XP**
@@ -59,7 +60,8 @@ The typical sequence of command you should use to do the task is:
 In particular, the **4th line** (`./cbmage picture.png | cbmctrl write`) produces the raw bytes (launch it **without "./"** if you run it **on Windows**), which are redirected to the printer through the piped `cbmctrl write` command.
 
 ## Restrictions
-**Maximum width** of the picture is **480 pixel**, the printer is a **black and white** one. The _recommended_ format is **PNG**: every single dot which is **white** (total white: `#ffffff` in hex) will be left blank, while **any** other pixel color will result in a **black** dot on the printer.
+* **Maximum width** on a Commodore MPS 803 is **480 dots** per row, so the image will be automatically resized to that width if it exceeds that size.
+* The printer is a **black and white** one. The _recommended_ format is **PNG**: every single dot which is **white** (total white: `#ffffff` in hex) will be left blank, while **any** other pixel color will result in a **black** dot on the printer.
 
 ## Credits
 Thanks to [**Spiro Trikaliotis**](http://spiro.trikaliotis.net/) for the [opencbm package](http://spiro.trikaliotis.net/opencbm), to [**Till Harbaum**](http://spiro.trikaliotis.net/xu1541) for the initial case study of the [XU1541](http://spiro.trikaliotis.net/xu1541) (and also for the fantastic [MIST](http://harbaum.org/till/mist/index.shtml)) and to [**Sean Barrett**](https://twitter.com/nothings) for his powerful and effective [STB Image Library](https://github.com/nothings/stb).
