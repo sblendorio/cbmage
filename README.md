@@ -44,7 +44,7 @@ Synopsis:
 
 `cbmage <image file name>`
 
-This is the basic syntax: it will simply write on *stdout* (so, the termainal window) the raw bytes that should be interpreted by the **MPS 803** printer. Quite useless if not redirected to a real printer.
+This is the basic syntax: it will simply write on *stdout* (so, the terminal window) the raw bytes that should be interpreted by the **MPS 803** printer. Quite useless if not redirected to a real printer.
 
 ## Let's use it with ***opencbm***
 
