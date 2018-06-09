@@ -32,7 +32,7 @@ on macOS you can use a similar command (with the help of [Homebrew Package Manag
 `brew install opencbm`
 
 ## Compiling ***cbmage***
-Once you have **gcc** installed, just enter the **"source"** directory and launch:
+Once you have **gcc** installed, enter the **"source"** directory and launch:
 
 `make`
 
@@ -44,11 +44,11 @@ Synopsis:
 
 `cbmage <image file name>`
 
-This is the basic syntax: it will simply write on *stdout* (so, the terminal window) the raw bytes that should be interpreted by the **MPS 803** printer. Quite useless if not redirected to a real printer.
+This is the basic syntax: it will write on *stdout* (i.e. the terminal window) the raw bytes that will be interpreted by the **MPS 803** printer. Quite useless if not redirected to a real printer.
 
 ## Let's use it with ***opencbm***
 
-The typical sequence of command you should use to do the task is:
+The typical sequence of commands you should use to do the task is the following:
 
     cbmctrl reset
     cbmctrl lock
@@ -60,7 +60,7 @@ The typical sequence of command you should use to do the task is:
 In particular, the **4th line** (`./cbmage picture.png | cbmctrl write`) produces the raw bytes (launch it **without "./"** if you run it **on Windows**), which are redirected to the printer through the piped `cbmctrl write` command.
 
 ## Restrictions
-* **Maximum width** on a Commodore MPS 803 is **480 dots** per row, so the image will be automatically resized to that width if it exceeds that size.
+* **Maximum width** on a Commodore MPS 803 is **480 dots** per row. Therefore the image will be automatically resized to that width if it exceeds that size.
 * The printer is a **black and white** one. The _recommended_ format is **PNG**: every single dot which is **white** (total white: `#ffffff` in hex) will be left blank, while **any** other pixel color will result in a **black** dot on the printer.
 
 ## Credits
