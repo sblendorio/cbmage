@@ -23,11 +23,9 @@ This utility outputs raw bytes for printing on a [Commodore MPS 803](http://www.
 - **gcc** if you want to compile from sources
 
 ## Install ***opencbm***
-To install [**opencbm**](http://spiro.trikaliotis.net/opencbm) you can use the installer from its website, or if you use a debian-based version of Linux, you can install it with:
+To install [**opencbm**](http://spiro.trikaliotis.net/opencbm) you can use the installer from its website, or if you use a debian-based version of Linux, follow these instructions: [**http://debian.trikaliotis.net**](http://debian.trikaliotis.net)
 
-`sudo apt-get install opencbm`
-
-on macOS you can use a similar command (with the help of [Homebrew Package Manager](https://brew.sh/)):
+On **macOS** you can use this command (with the help of [Homebrew Package Manager](https://brew.sh/)):
 
 `brew install opencbm`
 
