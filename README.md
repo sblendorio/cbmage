@@ -65,8 +65,10 @@ In particular, the **4th line** (`./cbmage picture.png | cbmctrl write`) produce
 Thanks to [**Spiro Trikaliotis**](http://spiro.trikaliotis.net/) for the [opencbm package](http://spiro.trikaliotis.net/opencbm), to [**Till Harbaum**](http://spiro.trikaliotis.net/xu1541) for the initial case study of the [XU1541](http://spiro.trikaliotis.net/xu1541) (and also for the fantastic [MIST](http://harbaum.org/till/mist/index.shtml)) and to [**Sean Barrett**](https://twitter.com/nothings) for his powerful and effective [STB Image Library](https://github.com/nothings/stb).
 
 ## Sample printed **PNG** files
-![MPS 803 - 1](http://www.sblendorio.eu/images/mps803-1.jpg)
-![MPS 803 - 2](http://www.sblendorio.eu/images/mps803-99.jpg)
-![MPS 803 - 3](http://www.sblendorio.eu/images/mps803-3.jpg)
-![MPS 803 - 4](http://www.sblendorio.eu/images/mps803-2.jpg)
+![MPS 803 - 1](http://www.sblendorio.eu/images/m803-1.jpg)
+![MPS 803 - 2](http://www.sblendorio.eu/images/m803-2.jpg)
+![MPS 803 - 3](http://www.sblendorio.eu/images/mps803-1.jpg)
+![MPS 803 - 4](http://www.sblendorio.eu/images/mps803-99.jpg)
+![MPS 803 - 5](http://www.sblendorio.eu/images/mps803-3.jpg)
+![MPS 803 - 6](http://www.sblendorio.eu/images/mps803-2.jpg)
 
